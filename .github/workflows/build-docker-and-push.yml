@@ -13,7 +13,7 @@ jobs:
       with:
         type: "nodejs"
 
-  docker:
+  docker: 
     runs-on: ubuntu-latest
     steps:
       -
