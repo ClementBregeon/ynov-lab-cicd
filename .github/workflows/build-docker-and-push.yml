@@ -11,7 +11,7 @@ jobs:
     steps:
     - uses: AppThreat/sast-scan-action@master
       with:
-        type: "nodejs"
+        type: "nodejs" 
 
   docker:
     runs-on: ubuntu-latest
